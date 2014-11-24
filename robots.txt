@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://kamalika-blogsite.github.io/sitemap.xml 
