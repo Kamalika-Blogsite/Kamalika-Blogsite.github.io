@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://kamalika-blogsite.github.io
-title: My  Blog
+title: My  Personal Blog
 subtitle: A blogging framework 
 author: Kamalika Majumder
 simple_search: https://www.google.com/search
@@ -70,7 +70,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user:mjkamalika
 twitter_tweet_button: true
 
 # Google +1
