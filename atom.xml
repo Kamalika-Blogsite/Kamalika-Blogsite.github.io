@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-11-24T23:30:35+05:30</updated>
+  <updated>2014-12-18T19:31:18+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Kamalika Majumder]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[From Sysadmin to Devops]]></title>
+    <link href="http://kamalika-blogsite.github.io/blog/2014/12/18/from-sysadmin-to-devops/"/>
+    <updated>2014-12-18T19:24:40+05:30</updated>
+    <id>http://kamalika-blogsite.github.io/blog/2014/12/18/from-sysadmin-to-devops</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
