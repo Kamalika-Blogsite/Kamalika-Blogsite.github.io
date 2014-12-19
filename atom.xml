@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-19T17:54:54+05:30</updated>
+  <updated>2014-12-19T18:38:57+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -83,6 +83,9 @@
 <p>There is a lot refactoring that has to go in it, but we are just starting :)</p>
 
 <p>Watch out this space for more updates.</p>
+
+<!-- more -->
+
 ]]></content>
   </entry>
   
