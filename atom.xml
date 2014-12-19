@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-19T15:02:49+05:30</updated>
+  <updated>2014-12-19T15:18:57+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test Infra Code - Test-Kitchen, Docker, Chef-zero]]></title>
+    <link href="http://kamalika-blogsite.github.io/blog/2014/12/19/test-infra-code-test-kitchen-docker-chef-zero/"/>
+    <updated>2014-12-19T15:18:50+05:30</updated>
+    <id>http://kamalika-blogsite.github.io/blog/2014/12/19/test-infra-code-test-kitchen-docker-chef-zero</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Environment on Demand]]></title>
@@ -43,7 +52,7 @@
 
 <p>  Using the above infrastructure we had setup an openstack-automated environment with VMware and KVM as the hypervisors. Below diagram is an overview of the setup.</p>
 
-<p>  <img src="http://kamalika-blogsite.github.io/images/Slide1.jpg" alt="screenshot1" /></p>
+<p>  <img src="http://kamalika-blogsite.github.io/source/images/Slide1.jpg" alt="screenshot1" /></p>
 
 <h4><em>Some Openstack Details:</em></h4>
 
