@@ -30,7 +30,7 @@ categories:
   Using the above infrastructure we had setup an openstack-automated environment with VMware and KVM as the hypervisors. Below diagram is an overview of the setup.
 
 
-  ![screenshot1](/images/Slide1.jpg)
+  ![screenshot1](/source/images/Slide1.jpg)
 
 
 ####*Some Openstack Details:*####
