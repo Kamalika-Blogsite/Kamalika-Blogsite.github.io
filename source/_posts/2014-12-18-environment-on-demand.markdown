@@ -5,11 +5,13 @@ date: 2014-12-18 19:34:23 +0530
 comments: true
 categories: 
 ---
-<!-- more -->
+
   We all know how important it is to have automated environment in your project. 
   In our regular work we speak about automated build and deployment in enterprises, very less is spoken about or given important to the initial setup which is - ***Provisioning the virtual environments*** 
 
   Automated provisioning of environment on demand is equally important as is automated build and deployment. 
+
+  <!-- more -->
 
   It is the entire workflow :- 
 
