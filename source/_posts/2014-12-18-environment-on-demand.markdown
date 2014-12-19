@@ -59,3 +59,5 @@ categories:
 There is a lot refactoring that has to go in it, but we are just starting :)
 
 Watch out this space for more updates.
+
+<!-- more -->
