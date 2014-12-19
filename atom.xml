@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-19T18:38:57+05:30</updated>
+  <updated>2014-12-19T23:52:08+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -27,7 +27,10 @@
     <link href="http://kamalika-blogsite.github.io/blog/2014/12/18/environment-on-demand/"/>
     <updated>2014-12-18T19:34:23+05:30</updated>
     <id>http://kamalika-blogsite.github.io/blog/2014/12/18/environment-on-demand</id>
-    <content type="html"><![CDATA[<p>  We all know how important it is to have automated environment in your project.
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>  We all know how important it is to have automated environment in your project.
   In our regular work we speak about automated build and deployment in enterprises, very less is spoken about or given important to the initial setup which is - <strong><em>Provisioning the virtual environments</em></strong></p>
 
 <p>  Automated provisioning of environment on demand is equally important as is automated build and deployment.</p>
@@ -83,9 +86,6 @@
 <p>There is a lot refactoring that has to go in it, but we are just starting :)</p>
 
 <p>Watch out this space for more updates.</p>
-
-<!-- more -->
-
 ]]></content>
   </entry>
   
