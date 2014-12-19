@@ -5,6 +5,7 @@ date: 2014-12-18 19:34:23 +0530
 comments: true
 categories: 
 ---
+<!-- more -->
   We all know how important it is to have automated environment in your project. 
   In our regular work we speak about automated build and deployment in enterprises, very less is spoken about or given important to the initial setup which is - ***Provisioning the virtual environments*** 
 
@@ -59,5 +60,3 @@ categories:
 There is a lot refactoring that has to go in it, but we are just starting :)
 
 Watch out this space for more updates.
-
-<!-- more -->
