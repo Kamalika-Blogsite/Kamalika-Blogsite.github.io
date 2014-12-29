@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-30T02:04:12+05:30</updated>
+  <updated>2014-12-30T02:05:24+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -30,13 +30,15 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <h4>So here are the topics that we are going to cover in this blog</h4>
 
-<pre><code>* Why TDD for infra code ?
-* What is test-kitchen ?
-* Provision instances on demand =&gt; kitchen-docker
-* Configure the instances =&gt; Chef-zero
-* How to test the infra code =&gt; Test-kitchen
-* A Quick Demo
-</code></pre>
+<ul>
+<li>Why TDD for infra code ?</li>
+<li>What is test-kitchen ?</li>
+<li>Provision instances on demand => kitchen-docker</li>
+<li>Configure the instances => Chef-zero</li>
+<li>How to test the infra code => Test-kitchen</li>
+<li>A Quick Demo</li>
+</ul>
+
 ]]></content>
   </entry>
   
