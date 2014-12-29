@@ -9,7 +9,7 @@ categories:
 In one of my recent project we had figured out how important it is to test your infrastructure code.So here in this blog I am going to discuss in detail about the good practices and technologies that we used to do TDD for infra code.This post will cover my talk in 
 <ul>
   <li>
-  <a href="#Rootconf - 2014">https://rootconf.in/2014/conference#1045-testing-infrastructure-code-using-test-kitchen-doc</a>
+  <a href="https://rootconf.in/2014/conference#1045-testing-infrastructure-code-using-test-kitchen-doc">#Rootconf - 2014</a>
 </li>
 </ul>  
 
