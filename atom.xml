@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-30T00:40:17+05:30</updated>
+  <updated>2014-12-30T00:41:52+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -18,16 +18,7 @@
     <link href="http://kamalika-blogsite.github.io/blog/2014/12/19/test-infra-code-test-kitchen-docker-chef-zero/"/>
     <updated>2014-12-19T15:18:50+05:30</updated>
     <id>http://kamalika-blogsite.github.io/blog/2014/12/19/test-infra-code-test-kitchen-docker-chef-zero</id>
-    <content type="html"><![CDATA[<p>In one of my recent project we had figured out how important it is to test your infrastructure code.So here in this blog I am going to discuss in detail about the good practices and technologies that we used to do TDD for infra code.This post will cover my talk in</p>
-
-<ul>
-  <li>
-  <a href="https://rootconf.in/2014/conference#1045-testing-infrastructure-code-using-test-kitchen-doc">#Rootconf - 2014</a>
-</li>
-</ul>
-
-
-<p></p>
+    <content type="html"><![CDATA[<p>In one of my recent project we had figured out how important it is to test your infrastructure code.So here in this blog I am going to discuss in detail about the good practices and technologies that we used to do TDD for infra code.This post will cover my talk in <a href="https://rootconf.in/2014/conference#1045-testing-infrastructure-code-using-test-kitchen-doc">#Rootconf - 2014</a></p>
 
 <p>I this blog I will be using three techs - &ldquo;Test-kitchen, Docker and Chef&rdquo; to do the demo.</p>
 
