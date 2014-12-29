@@ -16,7 +16,7 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 <!-- more -->
 
-{% img source/images/Slide03.jpg %}
+{% img center /images/Slide03.jpg 350 350 %}
 
 ###What are we trying to solve:###
 ==================================
