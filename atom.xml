@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-30T01:23:28+05:30</updated>
+  <updated>2014-12-30T01:28:04+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -30,33 +30,9 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <p><img class="center" src="http://kamalika-blogsite.github.io/images/Slide03.jpg"></p>
 
-<h3>What are we trying to solve:</h3>
+<p><img class="center" src="http://kamalika-blogsite.github.io/images/Slide04.jpg"></p>
 
-<hr />
-
-<p>Problems:
-Manual setups per server. Each Server becomes a &ldquo;work of art&rdquo;.
-No track of what changes were made when.
-Code works in local host , not in production.
-Testing takes forever</p>
-
-<p>Solutions:
-Model server configs, relationships with other servers, packages in code.(Configuration Management)
-Infra as Code, Code to be version controlled.
-Host production like environment locally.
-Scalable Environment On Demand .</p>
-
-<h3>Infrastructure As Code:</h3>
-
-<hr />
-
-<p>Treat your infrastructure as Code
-Server configuration, packages installed, relationships with other servers etc should be modeled with code to be automated, removing manual steps prone to errors.
-Use version controlling for that code.
-For instance we can (and should!)
-tag, branch and release the code that define our servers.
-have a lifecycle that covers different stages through the infrastructure code, ie. dev, QA, production.
-continuously test our infrastructure as we make changes.</p>
+<p><img class="center" src="http://kamalika-blogsite.github.io/images/Slide05.jpg"></p>
 ]]></content>
   </entry>
   
