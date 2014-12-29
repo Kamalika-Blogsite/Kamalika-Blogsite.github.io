@@ -16,7 +16,17 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 <!-- more -->
 
-{% img center /images/Slide03.jpg 890 250 %}
+###So here are the topics that we are going to cover in this blog###
+====================================================================
+
+*Why TDD for infra code ?
+*What is test-kitchen ?
+*Provision instances on demand => kitchen-docker
+*Configure the instances => Chef-zero
+*How to test the infra code => Test-kitchen
+*A Quick Demo
+
+
 
 {% img center /images/Slide04.jpg %}
 
