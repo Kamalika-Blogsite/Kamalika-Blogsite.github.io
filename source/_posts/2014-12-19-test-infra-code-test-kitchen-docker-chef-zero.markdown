@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test Infra Code - Test-Kitchen, Docker, Chef"
+title: "Testing Infra Code - Test-Kitchen, Docker, Chef"
 date: 2014-12-19 15:18:50 +0530
 comments: true
 categories: 
@@ -16,15 +16,7 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 <!-- more -->
 
-###Topics to be covered:###
-===========================
-
-Why TDD for infra code
-What is test-kitchen
-Provision instances on demand => kitchen-docker
-Configure the instances => Chef-zero
-Test the infra code => Test-kitchen
-Quick Demo
+{% img images/Slide03.jpg %}
 
 ###What are we trying to solve:###
 ==================================
