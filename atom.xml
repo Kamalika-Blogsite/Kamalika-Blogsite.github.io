@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-30T01:59:49+05:30</updated>
+  <updated>2014-12-30T02:03:35+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -28,7 +28,7 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <!-- more -->
 
 
-<h3>So here are the topics that we are going to cover in this blog</h3>
+<h2>So here are the topics that we are going to cover in this blog</h2>
 
 <pre><code>* Why TDD for infra code ?
 * What is test-kitchen ?
