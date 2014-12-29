@@ -6,9 +6,15 @@ comments: true
 categories: 
 ---
 
-This post is about my talk in #Rootconf - 2014.In one of my recent project we had figured out how important it is to test your infrastructure code.So here in this blog I am going to discuss in detail about the good practices and technologies that we used to do TDD for infra code.
+In one of my recent project we had figured out how important it is to test your infrastructure code.So here in this blog I am going to discuss in detail about the good practices and technologies that we used to do TDD for infra code.This post will cover my talk in 
+<ul>
+  <li>
+  <a href="#Rootconf - 2014">https://rootconf.in/2014/conference#1045-testing-infrastructure-code-using-test-kitchen-doc</a>
+</li>
+</ul>  
 
-I this blog I will be using three techs - Test-kitchen, Docker and Chef" to do the demo.
+
+I this blog I will be using three techs - "Test-kitchen, Docker and Chef" to do the demo.
 
 The workflow and practices can be followed with other equivalent tools as well.
 
@@ -16,6 +22,7 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 ###Topics to be covered:###
 ===========================
+
 Why TDD for infra code
 What is test-kitchen
 Provision instances on demand => kitchen-docker
@@ -25,6 +32,7 @@ Quick Demo
 
 ###What are we trying to solve:###
 ==================================
+
 Problems:
 Manual setups per server. Each Server becomes a "work of art".
 No track of what changes were made when.
@@ -39,6 +47,7 @@ Scalable Environment On Demand .
 
 ###Infrastructure As Code:###
 =============================
+
 Treat your infrastructure as Code
 Server configuration, packages installed, relationships with other servers etc should be modeled with code to be automated, removing manual steps prone to errors.
 Use version controlling for that code.
