@@ -16,7 +16,7 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 <!-- more -->
 
-{% img center /images/Slide03.jpg %}
+{% img center /images/Slide03.jpg 500 500 %}
 
 {% img center /images/Slide04.jpg %}
 
