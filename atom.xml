@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-30T01:13:42+05:30</updated>
+  <updated>2014-12-30T01:15:26+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -28,7 +28,7 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <!-- more -->
 
 
-<p><img src="source/images/Slide03.jpg"></p>
+<p><img class="center" src="http://kamalika-blogsite.github.io/images/Slide03.jpg" width="350" height="350"></p>
 
 <h3>What are we trying to solve:</h3>
 
