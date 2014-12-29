@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-30T00:38:09+05:30</updated>
+  <updated>2014-12-30T00:40:17+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -22,7 +22,7 @@
 
 <ul>
   <li>
-  <a href="#Rootconf - 2014">https://rootconf.in/2014/conference#1045-testing-infrastructure-code-using-test-kitchen-doc</a>
+  <a href="https://rootconf.in/2014/conference#1045-testing-infrastructure-code-using-test-kitchen-doc">#Rootconf - 2014</a>
 </li>
 </ul>
 
