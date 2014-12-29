@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Test Infra Code - Test-Kitchen, Docker, Chef-zero - My Blog site</title>
+  <title>Test Infra Code - Test-Kitchen, Docker, Chef - My Blog site</title>
   <meta name="author" content="Kamalika Majumder">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="This post is about my talk in #Rootconf - 2014.In one of my recent project we had figured out how important it is to test your infrastructure code.So &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Test Infra Code - Test-Kitchen, Docker, Chef-zero</h1>
+      <h1 class="entry-title">Test Infra Code - Test-Kitchen, Docker, Chef</h1>
     
     
       <p class="meta">
@@ -86,7 +85,53 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>This post is about my talk in #Rootconf - 2014.In one of my recent project we had figured out how important it is to test your infrastructure code.So here in this blog I am going to discuss in detail about the good practices and technologies that we used to do TDD for infra code.</p>
+
+<p>I this blog I will be using three techs - Test-kitchen, Docker and Chef&#8221; to do the demo.</p>
+
+<p>The workflow and practices can be followed with other equivalent tools as well.</p>
+
+<!-- more -->
+
+
+<h3>Topics to be covered:</h3>
+
+<hr />
+
+<p>Why TDD for infra code
+What is test-kitchen
+Provision instances on demand => kitchen-docker
+Configure the instances => Chef-zero
+Test the infra code => Test-kitchen
+Quick Demo</p>
+
+<h3>What are we trying to solve:</h3>
+
+<hr />
+
+<p>Problems:
+Manual setups per server. Each Server becomes a &ldquo;work of art&rdquo;.
+No track of what changes were made when.
+Code works in local host , not in production.
+Testing takes forever</p>
+
+<p>Solutions:
+Model server configs, relationships with other servers, packages in code.(Configuration Management)
+Infra as Code, Code to be version controlled.
+Host production like environment locally.
+Scalable Environment On Demand .</p>
+
+<h3>Infrastructure As Code:</h3>
+
+<hr />
+
+<p>Treat your infrastructure as Code
+Server configuration, packages installed, relationships with other servers etc should be modeled with code to be automated, removing manual steps prone to errors.
+Use version controlling for that code.
+For instance we can (and should!)
+tag, branch and release the code that define our servers.
+have a lifecycle that covers different stages through the infrastructure code, ie. dev, QA, production.
+continuously test our infrastructure as we make changes.</p>
 </div>
 
 
@@ -135,7 +180,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/12/19/test-infra-code-test-kitchen-docker-chef-zero/">Test Infra Code - Test-Kitchen, Docker, Chef-zero</a>
+        <a href="/blog/2014/12/19/test-infra-code-test-kitchen-docker-chef-zero/">Test Infra Code - Test-Kitchen, Docker, Chef</a>
       </li>
     
       <li class="post">
