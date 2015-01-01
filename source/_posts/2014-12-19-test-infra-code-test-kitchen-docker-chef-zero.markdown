@@ -27,6 +27,16 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 ####*What are we trying to solve*####
 
+  ###Problems
+
+  1. Manual setups per server.
+     Each Server becomes a "work of art".
+  2. No track of what changes were made when.
+  3. Code works in local host, 
+     not in production.
+  4. Testing takes forever.
+
+
 
 
 
