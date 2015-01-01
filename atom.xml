@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2014-12-30T02:16:25+05:30</updated>
+  <updated>2015-01-02T02:31:05+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -41,6 +41,18 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 
 <h4><em>What are we trying to solve</em></h4>
+
+<p>  ###Problems</p>
+
+<ol>
+<li> Manual setups per server.
+ Each Server becomes a &ldquo;work of art&rdquo;.</li>
+<li> No track of what changes were made when.</li>
+<li> Code works in local host,
+ not in production.</li>
+<li> Testing takes forever.</li>
+</ol>
+
 ]]></content>
   </entry>
   
