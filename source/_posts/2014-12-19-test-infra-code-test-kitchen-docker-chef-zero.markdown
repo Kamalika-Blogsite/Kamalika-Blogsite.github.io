@@ -27,12 +27,12 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 ####*What are we trying to solve*####
  
-|Problems                                                        |Solutions                                        |
-|----------------------------------------------------------------|-------------------------------------------------|
-|1. Manual setups per server.Each Server becomes a "work of art".|Modeling server configs(Configuration Management)|
-|2. No track of what changes were made when.                     |Infra as Code,Code to be version controlled.     |
-|3. Code works in local host,not in production.                  |Host production like environment locally.        |
-|4. Testing takes forever.                                       |Scalable Environment On Demand                   |
+|###Problems###                                                    |###Solutions###                                  |
+|------------------------------------------------------------------|-------------------------------------------------|
+|1. Manual setups per server.Each Server becomes a "work of art".  |Modeling server configs(Configuration Management)|
+|2. No track of what changes were made when.                       |Infra as Code,Code to be version controlled.     |
+|3. Code works in local host,not in production.                    |Host production like environment locally.        |
+|4. Testing takes forever.                                         |Scalable Environment On Demand                   |
 
 
 
