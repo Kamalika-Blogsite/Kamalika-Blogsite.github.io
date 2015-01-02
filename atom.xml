@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T17:05:58+05:30</updated>
+  <updated>2015-01-02T17:12:47+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -28,7 +28,7 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <!-- more -->
 
 
-<h4><em>So here are the topics that we are going to cover in this blog</em></h4>
+<h3><em>So here are the topics that we are going to cover in this blog</em></h3>
 
 <ul>
 <li>Why TDD for infra code ?</li>
@@ -40,7 +40,7 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 </ul>
 
 
-<h4><em>What are we trying to solve here</em></h4>
+<h3><em>What are we trying to solve here</em></h3>
 
 <p>Lets discuss about the four problems and their solutions above that we see quite often in every project.</p>
 
@@ -60,7 +60,24 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <p><strong>Solution:</strong> Scalable <strong><em>Environment On Demand</em></strong>. Have an environment that can be brought up , tested with the infra code and destroyed and recreated on demand in a timeline of 5 minutes - Now how does that sound ;)</p>
 
-<p>Well all of the above and more can be done that will cut down you release cycle from months to weeks to days to minutes.In our project where we had followed all of the above our release cycle was cut down from twice a week to mutiple time in a day and the deployment time was brought down from 2 hours to 10 minutes.</p>
+<p>Well all of the above and more can be done that will cut down you release cycle from months to weeks to days to minutes.In our project where we had followed all of the above our release cycle was cut down from twice a week to mutiple time in a day and the deployment time was brought down from 2 hours to 10 minutes.So let us discuss how this can be done in a real world.</p>
+
+<h3>Infrastructure As Code</h3>
+
+<ul>
+<li>Treat your infrastructure as Code</li>
+<li>Server configuration, packages installed, relationships with other servers etc should be modeled with code to be automated,removing manual steps prone to errors.</li>
+<li>Use version controlling for that code.</li>
+<li>For instance we can (and should!)
+
+<ul>
+<li>Tag, branch and release the code that define our servers.</li>
+<li>Have a lifecycle that covers different stages through the infrastructure code, ie. dev, QA, production.</li>
+<li>Continuously test our infrastructure as we make changes.</li>
+</ul>
+</li>
+</ul>
+
 ]]></content>
   </entry>
   
