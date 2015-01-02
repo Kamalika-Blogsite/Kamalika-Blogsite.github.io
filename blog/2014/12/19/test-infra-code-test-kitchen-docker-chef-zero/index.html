@@ -175,8 +175,11 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <p>Any of the above if not tested properly can cause drastic issues in production.For instance if we change the app port to 443 from 80 and say the intermidiate firewall rules are not updated to allow port 443 the the entire website will be down.These loopholes can be caught only if we test the infra code in dev environment right at the begining.</p>
 
 <p>Let us see how the setup looks like for testing infra code using Chef-Zero, Test-Kitchen and Docker.
-<img class="right" src="/images/test-kitchen.png" width="500" height="500">
-We used Test-kitchen with the docker plugin to build on demand containers and test our chef recipes on then.Test-kitchen uses kitchen.yml file which manages kitchen configurations and setup.A sample kitchen.yml file looks as below.</p>
+<img class="right" src="/images/test-kitchen.png" width="500" height="500"></p>
+
+<p>We used Test-kitchen with the docker plugin to build on demand containers and test our chef recipes on then.Test-kitchen uses kitchen.yml file which manages kitchen configurations and setup.We used customized docker images for centos and used docker registry to store and distribute images.</p>
+
+<p>A sample kitchen.yml file looks as below.</p>
 
 <pre><code>---
 driver:
