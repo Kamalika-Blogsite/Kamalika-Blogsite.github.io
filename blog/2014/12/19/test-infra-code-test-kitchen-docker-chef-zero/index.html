@@ -140,13 +140,16 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <p>Lets discuss about the four problems and their solutions above that we see quite often in every project.</p>
 
 <ol>
-<li>Manual steps to setup server.Every server having hardcoded configurations e.g: Data directory , user config , etc.The result, well , setting up takes hours even though you are following the same steps everytime.In short every server becomes a &ldquo;work of art&rdquo;.As a result it takes months to finish your deployment.</li>
+<li><strong>Manual steps to setup server:</strong> Every server having hardcoded configurations e.g: Data directory , user config , etc.The result, well , setting up takes hours even though you are following the same steps everytime.In short every server becomes a &ldquo;work of art&rdquo;.As a result it takes months to finish your deployment.</li>
 </ol>
 
 
 <p><strong>Solution:</strong> Model server configurations, parameterize everything , relationships with other servers, packages in code.This is called <strong><em>Configuration Management</em></strong>.In our demo we are doing to use Chef as the Configuration Management tool to explain how it is done.</p>
 
-<p>2.Another very common issue that we see often is loosing track of what changed.Ever have been in a situation when you come to work one morning and your app server stops working , and you have no idea what changed or who changed.And then you spend one full day to finally find that the iptables rules have changed .</p>
+<ol>
+<li><strong>No track of what changes were made when:</strong> Another very common issue that we see often is loosing track of what changed.Ever have been in a situation when you come to work one morning and your app server stops working , and you have no idea what changed or who changed.And then you spend one full day to finally find that the iptables rules have changed .</li>
+</ol>
+
 
 <p><strong>Solution:</strong> We can solve the above issue if we follow step 1 and verion control that code . We will discuss more about <strong><em>Infra</em></strong> As Code in the blog.</p>
 </div>
