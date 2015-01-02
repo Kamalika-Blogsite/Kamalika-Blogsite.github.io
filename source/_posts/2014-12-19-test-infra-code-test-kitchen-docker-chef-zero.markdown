@@ -27,7 +27,7 @@ The workflow and practices can be followed with other equivalent tools as well.
 
 ####*What are we trying to solve*####
  
-|                             Problems                             |                     Solutions                     |
+|                           Problems                               |                     Solutions                     |
 |:----------------------------------------------------------------:|:-------------------------------------------------:|
 | 1. Manual setups per server.Each Server becomes a "work of art". | Modeling server configs(Configuration Management) |
 | 2. No track of what changes were made when.                      | Infra as Code,Code to be version controlled.      |
