@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T15:54:51+05:30</updated>
+  <updated>2015-01-02T16:01:37+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -77,7 +77,7 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 </ol>
 
 
-<h5>Solution: Model server configurations, parameterize everything , relationships with other servers, packages in code.This is called <em>Configuration Management</em>.In our demo we are doing to use Chef as the Configuration Management tool to explain how it is done.#####</h5>
+<p><strong>Solution:</strong> Model server configurations, parameterize everything , relationships with other servers, packages in code.This is called <strong><em>Configuration Management</em></strong>.In our demo we are doing to use Chef as the Configuration Management tool to explain how it is done.</p>
 ]]></content>
   </entry>
   
