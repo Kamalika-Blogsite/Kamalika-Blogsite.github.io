@@ -79,6 +79,48 @@ Some real world scenarious which required change in infra code and testing that 
 Any of the above if not tested properly can cause drastic issues in production.For instance if we change the app port to 443 from 80 and say the intermidiate firewall rules are not updated to allow port 443 the the entire website will be down.These loopholes can be caught only if we test the infra code in dev environment right at the begining.
 
 Let us see how the setup looks like for testing infra code using Chef-Zero, Test-Kitchen and Docker.
+{% img right /images/test-kitchen.png 500 500 %}
 
-{% img right /images/test-kitchen.jpg 500 500 %}
+We used Test-kitchen with the docker plugin to build on demand containers and test our chef recipes on then.Test-kitchen uses kitchen.yml file which manages kitchen configurations and setup.We used customized docker images for centos and used docker registry to store and distribute images.
+
+A sample kitchen.yml file looks as below.
+<pre><code>---
+driver:
+  name: docker
+driver_config:
+  require_chef_omnibus: 10.18.2
+
+  run_command: /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes
+  use_sudo: false
+  provision_command:
+    - chown kitchen.kitchen /tmp/kitchen
+    - echo 'http_proxy="http://172.17.42.1:8123"' /etc/yum.conf
+  http_proxy: http://172.17.42.1:8123
+provisioner:
+  name: chef_zero
+  client_rb:
+    http_proxy: http://172.17.42.1:8123
+    no_proxy: 127.0.0.1
+platforms:
+  - name: dev
+    driver_config:
+      image: "repo:centos"
+      platform: "centos"
+suites:
+  - name: web
+    data_bags_path: databags
+    roles_path: kitchen_roles
+    run_list:
+    - recipe[apache]
+
+  - name: db01
+    data_bags_path: databags
+    roles_path: kitchen_roles
+    run_list:
+    - role[db]
+    - recipe[mongodb::replicaset]
+
+    attributes:
+      databag: "acceptance-test"
+</code></pre>
 
