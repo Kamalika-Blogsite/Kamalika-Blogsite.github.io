@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T16:54:13+05:30</updated>
+  <updated>2015-01-02T17:05:33+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -42,34 +42,6 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <h4><em>What are we trying to solve here</em></h4>
 
-<table>
-<thead>
-<tr>
-<th> Problems                                                          </th>
-<th> Solutions                                             </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> 1. Manual setups per server.Each Server becomes a &ldquo;work of art&rdquo;.  </td>
-<td> Modeling server configs(Configuration Management)     </td>
-</tr>
-<tr>
-<td> 2. No track of what changes were made when.                       </td>
-<td> Infra as Code,Code to be version controlled.          </td>
-</tr>
-<tr>
-<td> 3. Code works in local host,not in production.                    </td>
-<td> Host production like environment locally.             </td>
-</tr>
-<tr>
-<td> 4. Testing takes forever.                                         </td>
-<td> Scalable Environment On Demand                        </td>
-</tr>
-</tbody>
-</table>
-
-
 <p>Lets discuss about the four problems and their solutions above that we see quite often in every project.</p>
 
 <p><strong>1. Manual steps to setup server:</strong> Every server having hardcoded configurations e.g: Data directory , user config , etc.The result, well , setting up takes hours even though you are following the same steps everytime.In short every server becomes a &ldquo;work of art&rdquo;.As a result it takes months to finish your deployment.</p>
@@ -83,6 +55,12 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <p><strong>3. Code works in local host , not in Production:</strong> A classic developer quote ;) Ever wonder why is that so.Well the answer is pretty simple , inconsistency between dev, QA and Prod environment.If we want the same code on a developer laptop to go and build an app that will be deployed in production, then why dont we have same environment in dev as in production.</p>
 
 <p><strong>Solution:</strong> Host a production like environment right at your dev laptop and the same in QA.So all devs and QAs have a prod like environment to test the same code that will eventually go in production.This way more bugs are caught before it goes to production.We will see how we can achieve that using <strong><em>Test-kitchen</em></strong> more coming forward.</p>
+
+<p><strong>4. Testing takes forever:</strong> Well last but not the least , testing the infra code takes longer than ever.Reason can be not having environment to test the Infra-code.</p>
+
+<p><strong>Solution:</strong> Scalable <strong><em>Environment On Demand</em></strong>. Have an environment that can be brought up , tested with the infra code and destroyed and recreated on demand in a timeline of 5 minutes - Now how does that sound ;)</p>
+
+<p>Well all of the above and more can be done that will cut down you release cycle from months to weeks to days to minutes.In our project where we had followed all of the above our release cycle was cut down from twice a week to mutiple time in a day and the deployment time was brought down from 2 hours to 10 minutes.</p>
 ]]></content>
   </entry>
   
