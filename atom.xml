@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T17:13:18+05:30</updated>
+  <updated>2015-01-02T17:18:53+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -75,7 +75,9 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <li>Have a lifecycle that covers different stages through the infrastructure code, ie. dev, QA, production.</li>
 <li>Continuously test our infrastructure as we make changes.</li>
 </ul>
-</li>
+
+
+<p><img class="center" src="http://kamalika-blogsite.github.io/images/Slide06.jpg"></p></li>
 </ul>
 
 ]]></content>
