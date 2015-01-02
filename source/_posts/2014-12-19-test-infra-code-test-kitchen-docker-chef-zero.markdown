@@ -78,3 +78,7 @@ Some real world scenarious which required change in infra code and testing that 
 
 Any of the above if not tested properly can cause drastic issues in production.For instance if we change the app port to 443 from 80 and say the intermidiate firewall rules are not updated to allow port 443 the the entire website will be down.These loopholes can be caught only if we test the infra code in dev environment right at the begining.
 
+Let us see how the setup looks like for testing infra code using Chef-Zero, Test-Kitchen and Docker.
+
+{% img right /images/test-kitchen.jpg 500 500 %}
+
