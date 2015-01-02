@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T23:45:59+05:30</updated>
+  <updated>2015-01-03T00:02:11+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -108,13 +108,11 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 <p>Any of the above if not tested properly can cause drastic issues in production.For instance if we change the app port to 443 from 80 and say the intermidiate firewall rules are not updated to allow port 443 the the entire website will be down.These loopholes can be caught only if we test the infra code in dev environment right at the begining.</p>
 
 <p>Let us see how the setup looks like for testing infra code using Chef-Zero, Test-Kitchen and Docker.
-<img class="right" src="http://kamalika-blogsite.github.io/images/test-kitchen.png" width="500" height="500">
-We used Test-kitchen with the docker plugin to build on demand containers and test our chef recipes on them.Test-kitchen uses kitchen.yml file which manages kitchen configurations and setup.
-<strong><em>Driver</em></strong> refers to which hypervisor plugin to use - lxc, docker or vagrant.
-<strong><em>Provisioner</em></strong> refers to the Configration Management tool whether, chef-solo, chef-zero, chef-server or puppet etc.
-<strong><em>Platforms</em></strong> refers to environment labels like dev, QA etc.
-<strong><em>Suites</em></strong> refers roles that will decide which recipes/scripts to run on the containers.
-A sample kitchen.yml file looks like this.</p>
+<img class="right" src="http://kamalika-blogsite.github.io/images/test-kitchen.png" width="500" height="500"></p>
+
+<p>We used Test-kitchen with the docker plugin to build on demand containers and test our chef recipes on then.Test-kitchen uses kitchen.yml file which manages kitchen configurations and setup.We used customized docker images for centos and used docker registry to store and distribute images.</p>
+
+<p>A sample kitchen.yml file looks as below.</p>
 
 <pre><code>---
 driver:
@@ -157,9 +155,7 @@ suites:
 </code></pre>
 
 
-<p>Here is how a typical test-kitchen run looks like</p>
 
-<p><video width='' height='' preload='none' controls poster=''><source src='https://www.youtube.com/watch?v=U0KaRcDT_uQ&feature=youtu.be' ></video></p>
 ]]></content>
   </entry>
   
