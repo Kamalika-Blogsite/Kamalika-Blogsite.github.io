@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T18:06:34+05:30</updated>
+  <updated>2015-01-02T18:13:02+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -83,6 +83,16 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <p>This is how the code structure looks like.As told earlier we are going to use <strong><em>Chef-Zero</em></strong> as the Configuration Management tool for our Infrastructure code.There are ofcourse other alternatives like Puppet , Ansible etc.
 To be more specific we are going to use Chef-zero for the demo as we wanted to replicate Chef-server while doing real life testing using Test-kitchen.</p>
+
+<h3>Why Test Driven Development for Infrastructure Code</h3>
+
+<ul>
+<li>Code works in localhost as well as in production server.</li>
+<li>Quick and immediate feedback while testing Infra code.</li>
+<li>Faster you test code,faster you deploy in Production.</li>
+<li>Shorter Release Cycle for apps.</li>
+</ul>
+
 ]]></content>
   </entry>
   
