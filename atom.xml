@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T23:39:51+05:30</updated>
+  <updated>2015-01-02T23:40:54+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -161,7 +161,7 @@ suites:
 
 <ul>
 <li>
-<iframe src="//www.youtube.com/embed/U0KaRcDT_uQ?list=UUtrFv7h68czOHeuYJVkrQTQ" frameborder="0" allowfullscreen></iframe>>
+<iframe width="560" height="560" src="//www.youtube.com/embed/U0KaRcDT_uQ?list=UUtrFv7h68czOHeuYJVkrQTQ" frameborder="0" allowfullscreen></iframe>>
 </li>
 </ul>
 
