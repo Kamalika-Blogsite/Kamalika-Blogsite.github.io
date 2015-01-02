@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T15:15:51+05:30</updated>
+  <updated>2015-01-02T15:22:45+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -51,20 +51,20 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;">1.Manual setups per server.Each Server becomes a &ldquo;work of art&rdquo;.   </td>
-<td style="text-align:center;">Modeling server configs(Configuration Management)  </td>
+<td style="text-align:center;">:1.Manual setups per server.Each Server becomes a &ldquo;work of art&rdquo;. :</td>
+<td style="text-align:center;">:Modeling server configs(Configuration Management):</td>
 </tr>
 <tr>
-<td style="text-align:center;">2.No track of what changes were made when.                        </td>
-<td style="text-align:center;">Infra as Code,Code to be version controlled.       </td>
+<td style="text-align:center;">:2.No track of what changes were made when.                      :</td>
+<td style="text-align:center;">:Infra as Code,Code to be version controlled.     :</td>
 </tr>
 <tr>
-<td style="text-align:center;">3.Code works in local host,not in production.                     </td>
-<td style="text-align:center;">Host production like environment locally.          </td>
+<td style="text-align:center;">:3.Code works in local host,not in production.                   :</td>
+<td style="text-align:center;">:Host production like environment locally.        :</td>
 </tr>
 <tr>
-<td style="text-align:center;">4.Testing takes forever.                                          </td>
-<td style="text-align:center;">Scalable Environment On Demand                     </td>
+<td style="text-align:center;">:4.Testing takes forever.                                        :</td>
+<td style="text-align:center;">:Scalable Environment On Demand                   :</td>
 </tr>
 </tbody>
 </table>
