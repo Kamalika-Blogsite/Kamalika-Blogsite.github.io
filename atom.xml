@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T18:14:11+05:30</updated>
+  <updated>2015-01-02T18:36:09+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -77,12 +77,11 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 </ul>
 
 
-<p><img class="right" src="http://kamalika-blogsite.github.io/images/Slide06.jpg" width="500" height="500"></p></li>
+<p><img class="right" src="http://kamalika-blogsite.github.io/images/Slide06.jpg" width="500" height="500" title="Diagram1" ></p></li>
 </ul>
 
 
-<p>This is how the code structure looks like.As told earlier we are going to use <strong><em>Chef-Zero</em></strong> as the Configuration Management tool for our Infrastructure code.There are ofcourse other alternatives like Puppet , Ansible etc.
-To be more specific we are going to use Chef-zero for the demo as we wanted to replicate Chef-server while doing real life testing using Test-kitchen.</p>
+<p>As can be seen in the diagram, every server is tagged by some chef roles like, Appserver, DBserver etc, under some chef environment either dev, QA or Prod with environment specific values like url , ports etc.And then we have chef recipes/cookbooks/run_lists that they the actual scripts that will ne running on that server .</p>
 
 <h3><em>Why Test Driven Development for Infrastructure Code</em></h3>
 
@@ -91,6 +90,18 @@ To be more specific we are going to use Chef-zero for the demo as we wanted to r
 <li>Quick and immediate feedback while testing Infra code.</li>
 <li>Faster you test code,faster you deploy in Production.</li>
 <li>Shorter Release Cycle for apps.</li>
+</ul>
+
+
+<p>Some real world scenarious which required change in infra code and testing that so that it does not impact existing setup.In our project we had to do come accross some of the following tasks that we managed through chef recipes and roles.</p>
+
+<ul>
+<li>Changing web ports => e.g: Change app port to 443</li>
+<li>Adding new app metrics => e.g: Adding nginx config to monitor app health</li>
+<li>Changing app user => e.g: making the app to run under service user</li>
+<li>Add a new user => e.g: Allow a whitelisted user to access the website</li>
+<li>Add basic authentication => e.g: enable basic authentication through apache/nginx</li>
+<li>Configuring a new machine => e.g: Adding additAny of the above can be done using chef recipes</li>
 </ul>
 
 ]]></content>
