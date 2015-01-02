@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T19:02:02+05:30</updated>
+  <updated>2015-01-02T19:03:59+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -109,7 +109,7 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <p>Let us see how the setup looks like for testing infra code using Chef-Zero, Test-Kitchen and Docker.</p>
 
-<p><img class="right" src="http://kamalika-blogsite.github.io/images/test-kitchen.jpg" width="500" height="500"></p>
+<p><img class="right" src="http://kamalika-blogsite.github.io/images/test-kitchen.png" width="500" height="500"></p>
 ]]></content>
   </entry>
   
