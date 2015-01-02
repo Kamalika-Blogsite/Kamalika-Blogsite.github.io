@@ -29,9 +29,9 @@ The workflow and practices can be followed with other equivalent tools as well.
  
 |                           Problems                               |                     Solutions                     |
 |:----------------------------------------------------------------:|:-------------------------------------------------:|
-| 1. Manual setups per server.Each Server becomes a "work of art". | Modeling server configs(Configuration Management) |
-| 2. No track of what changes were made when.                      | Infra as Code,Code to be version controlled.      |
-| 3. Code works in local host,not in production.                   | Host production like environment locally.         |
-| 4. Testing takes forever.                                        | Scalable Environment On Demand                    |
+|1.Manual setups per server.Each Server becomes a "work of art".   |Modeling server configs(Configuration Management)  |
+|2.No track of what changes were made when.                        |Infra as Code,Code to be version controlled.       |
+|3.Code works in local host,not in production.                     |Host production like environment locally.          |
+|4.Testing takes forever.                                          |Scalable Environment On Demand                     |
 
 
