@@ -46,7 +46,7 @@ Lets discuss about the four problems and their solutions above that we see quite
 
 Well all of the above and more can be done that will cut down you release cycle from months to weeks to days to minutes.In our project where we had followed all of the above our release cycle was cut down from twice a week to mutiple time in a day and the deployment time was brought down from 2 hours to 10 minutes.So let us discuss how this can be done in a real world.
 
-###Infrastructure As Code###
+###*Infrastructure As Code*###
 
 * Treat your infrastructure as Code
 * Server configuration, packages installed, relationships with other servers etc should be modeled with code to be automated,removing manual steps prone to errors.
@@ -57,3 +57,24 @@ Well all of the above and more can be done that will cut down you release cycle 
   * Continuously test our infrastructure as we make changes.
 
   {% img right /images/Slide06.jpg 500 500 %}
+
+As can be seen in the diagram, every server is tagged by some chef roles like, Appserver, DBserver etc, under some chef environment either dev, QA or Prod with environment specific values like url , ports etc.And then we have chef recipes/cookbooks/run_lists that they the actual scripts that will ne running on that server.We used Chef-zero as we wanted to use an exact chef-server environment as we used in production.The workflow holds good for any other configuration management tools like Puppet, Ansible etc.
+
+###*Why Test Driven Development for Infrastructure Code*###
+
+* Code works in localhost as well as in production server.
+* Quick and immediate feedback while testing Infra code.
+* Faster you test code,faster you deploy in Production.
+* Shorter Release Cycle for apps.
+ 
+Some real world scenarious which required change in infra code and testing that so that it does not impact existing setup.In our project we had to do come accross some of the following tasks that we managed through chef recipes and roles.
+
+* Changing web ports => e.g: Change app port to 443 
+* Adding new app metrics => e.g: Adding nginx config to monitor app health
+* Changing app user => e.g: making the app to run under service user
+* Add a new user => e.g: Allow a whitelisted user to access the website
+* Add basic authentication => e.g: enable basic authentication through apache/nginx
+* Configuring a new machine => e.g: Adding additAny of the above can be done using chef recipes 
+
+Any of the above if not tested properly can cause drastic issues in production.For instance if we change the app port to 443 from 80 and say the intermidiate firewall rules are not updated to allow port 443 the the entire website will be down.These loopholes can be caught only if we test the infra code in dev environment right at the begining.
+
