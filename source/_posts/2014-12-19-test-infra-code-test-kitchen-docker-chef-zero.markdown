@@ -56,3 +56,4 @@ Well all of the above and more can be done that will cut down you release cycle 
   * Have a lifecycle that covers different stages through the infrastructure code, ie. dev, QA, production.
   * Continuously test our infrastructure as we make changes.
 
+  {% img right /images/Slide06.jpg 500 500 %}
