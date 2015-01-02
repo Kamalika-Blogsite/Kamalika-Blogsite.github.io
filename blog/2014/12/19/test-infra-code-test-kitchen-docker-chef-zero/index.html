@@ -139,19 +139,17 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <p>Lets discuss about the four problems and their solutions above that we see quite often in every project.</p>
 
-<ol>
-<li><strong>Manual steps to setup server:</strong> Every server having hardcoded configurations e.g: Data directory , user config , etc.The result, well , setting up takes hours even though you are following the same steps everytime.In short every server becomes a &ldquo;work of art&rdquo;.As a result it takes months to finish your deployment.</li>
-</ol>
+<p><strong>1. Manual steps to setup server:</strong> Every server having hardcoded configurations e.g: Data directory , user config , etc.The result, well , setting up takes hours even though you are following the same steps everytime.In short every server becomes a &ldquo;work of art&rdquo;.As a result it takes months to finish your deployment.</p>
 
+<p><strong>Solution:</strong> Model server configurations, parameterize everything, relationships with other servers, packages in code.This is called <strong><em>Configuration Management</em></strong>.In our demo we are doing to use Chef as the Configuration Management tool to explain how it is done.</p>
 
-<p><strong>Solution:</strong> Model server configurations, parameterize everything , relationships with other servers, packages in code.This is called <strong><em>Configuration Management</em></strong>.In our demo we are doing to use Chef as the Configuration Management tool to explain how it is done.</p>
-
-<ol>
-<li><strong>No track of what changes were made when:</strong> Another very common issue that we see often is loosing track of what changed.Ever have been in a situation when you come to work one morning and your app server stops working , and you have no idea what changed or who changed.And then you spend one full day to finally find that the iptables rules have changed .</li>
-</ol>
-
+<p><strong>2. No track of what changes were made when:</strong> Another very common issue that we see often is loosing track of what changed.Ever have been in a situation when you come to work one morning and your app server stops working , and you have no idea what changed or who changed.And then you spend one full day to finally find that the iptables rules have changed .</p>
 
 <p><strong>Solution:</strong> We can solve the above issue if we follow step 1 and verion control that code . We will discuss more about <strong><em>Infra As Code</em></strong> in the blog.</p>
+
+<p><strong>3. Code works in local host , not in Production:</strong> A classic developer quote ;) Ever wonder why is that so.Well the answer is pretty simple , inconsistency between dev, QA and Prod environment.If we want the same code on a developer laptop to go and build an app that will be deployed in production, then why dont we have same environment in dev as in production.</p>
+
+<p><strong>Solution:</strong> Host a production like environment right at your dev laptop and the same in QA.So all devs and QAs have a prod like environment to test the same code that will eventually go in production.This way more bugs are caught before it goes to production.We will see how we can achieve that using <strong><em>Test-kitchen</em></strong> more coming forward.</p>
 </div>
 
 
