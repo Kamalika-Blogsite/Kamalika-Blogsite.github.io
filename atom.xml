@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-02T23:28:47+05:30</updated>
+  <updated>2015-01-02T23:35:21+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -160,6 +160,15 @@ suites:
 <p>Here is how a typical test-kitchen run looks like</p>
 
 <p><video width='' height='' preload='none' controls poster=''><source src='https://www.youtube.com/watch?v=U0KaRcDT_uQ&feature=youtu.be' ></video></p>
+
+<ul>
+<li>
+<iframe width="560" height="315" src="//www.youtube.com/embed/U0KaRcDT_uQ?list=UUtrFv7h68czOHeuYJVkrQTQ" frameborder="0" allowfullscreen></iframe>>
+</li>
+</ul>
+
+
+
 ]]></content>
   </entry>
   
