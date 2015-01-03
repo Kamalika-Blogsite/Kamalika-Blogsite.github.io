@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-03T23:21:11+05:30</updated>
+  <updated>2015-01-03T23:21:57+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -159,7 +159,7 @@ suites:
 
 <p>Here is how an example of a typical <a href="https://www.youtube.com/watch?v=U0KaRcDT_uQ">#Test-Kitchen Run</a></p>
 
-<p>So what do we achieve at the end of this:</p>
+<p>So heres what we achieve at the end of this:</p>
 
 <ul>
 <li>More stable and tested  build .</li>
