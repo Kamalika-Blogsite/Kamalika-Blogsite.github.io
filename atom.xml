@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-03T23:36:17+05:30</updated>
+  <updated>2015-01-03T23:37:43+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -172,7 +172,7 @@ suites:
 </ul>
 
 
-<p>My talk video about this topic can be found in my <a href="https://hasgeek.tv/rootconf/2014/916-testing-infrastructure-code-using-test-kitchen-docker-and-chef-zero">RootConf Talk</a>.</p>
+<p>A live demo about this topic can be found in my <a href="https://hasgeek.tv/rootconf/2014/916-testing-infrastructure-code-using-test-kitchen-docker-and-chef-zero">RootConf Talk</a>.</p>
 
 <p>P.S: If you are new to Docker and Chef you can also see my  <a href="https://hasgeek.tv/rootconf/2014-bangalore/881-introduction-to-docker-chef">Pre Runup RootConf Talk</a></p>
 ]]></content>
