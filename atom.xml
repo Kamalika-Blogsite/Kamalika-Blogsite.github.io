@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-03T23:25:58+05:30</updated>
+  <updated>2015-01-03T23:30:40+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -107,7 +107,7 @@ This post will cover my talk in <a href="https://rootconf.in/2014/conference#104
 
 <p>Any of the above if not tested properly can cause drastic issues in production.For instance if we change the app port to 443 from 80 and say the intermidiate firewall rules are not updated to allow port 443 the the entire website will be down.These loopholes can be caught only if we test the infra code in dev environment right at the begining.</p>
 
-<p>Let us see how the setup looks like for testing infra code using Chef-Zero, Test-Kitchen and Docker.
+<p>Let us see how the setup looks like for testing infra code using <a href="https://github.com/opscode/chef-zero">Chef-Zero</a>, <a href="http://kitchen.ci/">Test-Kitchen</a> and <a href="https://github.com/portertech/kitchen-docker">Docker</a>.
 <img class="right" src="http://kamalika-blogsite.github.io/images/test-kitchen.png" width="500" height="500">
 We used Test-kitchen with the docker plugin to build on demand containers and test our chef recipes on them.Test-kitchen uses kitchen.yml file which manages kitchen configurations and setup.
 <strong><em>Driver</em></strong> refers to which hypervisor plugin to use - lxc, docker or vagrant.
@@ -171,10 +171,6 @@ suites:
 <li>Overall testing time reduction went down by multifold. Build pipeline time cycle reduction.</li>
 </ul>
 
-
-<p>Inshort this entire workflow looks somethinng like this:</p>
-
-<p><img class="center" src="http://kamalika-blogsite.github.io/images/go.jpg" width="890" height="600"></p>
 ]]></content>
   </entry>
   
