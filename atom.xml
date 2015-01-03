@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog site]]></title>
   <link href="http://kamalika-blogsite.github.io/atom.xml" rel="self"/>
   <link href="http://kamalika-blogsite.github.io/"/>
-  <updated>2015-01-03T23:21:57+05:30</updated>
+  <updated>2015-01-03T23:25:12+05:30</updated>
   <id>http://kamalika-blogsite.github.io/</id>
   <author>
     <name><![CDATA[Kamalika Majumder]]></name>
@@ -171,6 +171,10 @@ suites:
 <li>Overall testing time reduction went down by multifold. Build pipeline time cycle reduction.</li>
 </ul>
 
+
+<p>Inshort this entire workflow looks somethinng like this:</p>
+
+<p><img class="center" src="http://kamalika-blogsite.github.io/images/go.jpg"></p>
 ]]></content>
   </entry>
   
